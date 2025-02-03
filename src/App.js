@@ -34,7 +34,7 @@ const App = () => {
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
-            <Route path="/" element={<MyForm />} />
+            <Route path="/register-form-reactjs" element={<MyForm />} />
             <Route path="/display" element={<DisplayData />} />
           </Routes>
         </Suspense>
