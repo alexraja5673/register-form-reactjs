@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-style:initial;
+    line-height: 40px;
+    color: #000;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px !important;
+}
+.option:hover {
+    background-color: red;
+    color: white; /* Optional: change text color for better contrast */
+  }
+.section .Form-container{
+    background-image: url(./image/online.webp);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.Form-container{
+    width: 60% !important;
+    height: 100%;
+}
+.form-img {
+    height: 100%;
+}
+.input-size{
+    width: 100%;
+    padding: 10px;
+    color: #757575;
+    font-weight: 500;
+    outline: none;
+}
+button{
+    color: #fff;
+    background-color: #11ef11bd;
+    border: none;
+    padding: 10px 37px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+
+
+/* table design */
+table, th, td {
+    border: 2px solid;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .Form-container{
+        width: 95% !important;
+        
+    }
+}
+
+/* Mobile screens (0 - 767px) */
+@media screen and (max-width: 767px) {
+    .Form-container{
+        width: 95% !important;
+        
+    }
+}
